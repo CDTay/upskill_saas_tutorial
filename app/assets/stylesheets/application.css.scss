@@ -45,6 +45,11 @@ h1, h2, h3 {
     border: none;
 }
 
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-brand {
     transition: color .2s linear, opacity .2s linear ;
