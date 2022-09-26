@@ -30,7 +30,10 @@
                     <ul class="nav navbar-nav navbar-right">
                         <!--<li><a href="/about">About</a></li>-->
                         <li><%= link_to "About", "/about" %></li>
-                        <li><a href="//github.com/CDTay" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <!--<li><a href="//github.com/CDTay" target="_blank"><i class="fa fa-github"></i></a></li>-->
+                        <%= link_to "//github.com/CDTay", target: blank?, class: "navbar-brand" do %>
+                            <i class="fa fa-github"></i>
+                        <% end %>
                         
                     </ul>
                 </div><!-- /.navbar-collapse -->
