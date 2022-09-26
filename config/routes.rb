@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
     root to:'pages#home'
     get 'about', to: 'pages#about'
-    # get 'ctaylor_github', to: 'pages#ctaylor_github'
+    get 'ctaylor_github', to: redirect('//github.com/CDTay')
 end
 
 
